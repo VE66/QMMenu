@@ -1,0 +1,27 @@
+{
+  "name": "QMMenu",
+  "version": "0.1.0",
+  "summary": "A short description of QMMenu.",
+  "description": "Menu 自定义",
+  "homepage": "https://github.com/VE66/QMMenu",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "VE66": "942914231@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/VE66/QMMenu.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "vendored_frameworks": "QMMenu/Classes/QMMenuView.framework",
+  "dependencies": {
+    "SnapKit": [
+
+    ]
+  }
+}

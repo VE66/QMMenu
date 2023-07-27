@@ -1,0 +1,11 @@
+framework module QMMenuView {
+  umbrella header "QMMenuView.h"
+
+  export *
+  module * { export * }
+}
+
+module QMMenuView.Swift {
+  header "QMMenuView-Swift.h"
+  requires objc
+}

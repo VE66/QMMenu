@@ -1,0 +1,23 @@
+PODS:
+  - QMMenu (0.1.0):
+    - SnapKit
+  - SnapKit (5.6.0)
+
+DEPENDENCIES:
+  - QMMenu (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  QMMenu:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QMMenu: 156e8a63f8d4fd71b7add5ec0d084dda86ae8bc5
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+
+PODFILE CHECKSUM: 7de3bf7844c99cb1515b98cf2b8838768e9fc2c5
+
+COCOAPODS: 1.12.1

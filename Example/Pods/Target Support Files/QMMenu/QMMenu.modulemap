@@ -1,0 +1,6 @@
+framework module QMMenu {
+  umbrella header "QMMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}

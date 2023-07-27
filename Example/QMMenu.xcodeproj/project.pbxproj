@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		0CEE33FCBC288014AF6535F5 /* Pods-QMMenu_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMMenu_Example.release.xcconfig"; path = "Target Support Files/Pods-QMMenu_Example/Pods-QMMenu_Example.release.xcconfig"; sourceTree = "<group>"; };
 		17EDEF03BEAC6FC78B450865 /* Pods_QMMenu_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QMMenu_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1833617A8EFA855C890A6C0C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1833617A8EFA855C890A6C0C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1B0FD93B0B0A66AC3EAE681C /* Pods-QMMenu_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMMenu_Example.debug.xcconfig"; path = "Target Support Files/Pods-QMMenu_Example/Pods-QMMenu_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3090D2E7AA1F1F9465B2DF28 /* Pods-QMMenu_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMMenu_Tests.debug.xcconfig"; path = "Target Support Files/Pods-QMMenu_Tests/Pods-QMMenu_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* QMMenu_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QMMenu_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,8 +44,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		986FD8A9A9DC59609986EFC1 /* Pods_QMMenu_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QMMenu_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A367B12DCCC09415070232BF /* QMMenu.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = QMMenu.podspec; path = ../QMMenu.podspec; sourceTree = "<group>"; };
-		C6CC987A4BC33E0E2BDAABA7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A367B12DCCC09415070232BF /* QMMenu.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QMMenu.podspec; path = ../QMMenu.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C6CC987A4BC33E0E2BDAABA7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F714B0ECB3C65527C73D4E1F /* Pods-QMMenu_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMMenu_Tests.release.xcconfig"; path = "Target Support Files/Pods-QMMenu_Tests/Pods-QMMenu_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,6 @@
 				3090D2E7AA1F1F9465B2DF28 /* Pods-QMMenu_Tests.debug.xcconfig */,
 				F714B0ECB3C65527C73D4E1F /* Pods-QMMenu_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -313,11 +313,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-QMMenu_Example/Pods-QMMenu_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/QMMenu/QMMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QMMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

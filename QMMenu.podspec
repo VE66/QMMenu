@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = "Menu 自定义"
 
   s.homepage         = 'https://github.com/VE66/QMMenu'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -28,15 +26,15 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/VE66/QMMenu.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
 
-  s.source_files = 'QMMenu/Classes/**/*'
-  
+#  s.source_files = 'QMMenu/Classes/**/*'
+  s.vendored_frameworks = 'QMMenu/Classes/QMMenuView.framework'
   # s.resource_bundles = {
   #   'QMMenu' => ['QMMenu/Assets/*.png']
   # }
-
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64' }
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'SnapKit'
 end
