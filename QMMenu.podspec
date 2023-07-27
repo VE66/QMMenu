@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   # s.resource_bundles = {
   #   'QMMenu' => ['QMMenu/Assets/*.png']
   # }
-  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64' }
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 x86_64' }
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'SnapKit'
