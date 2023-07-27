@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/QMMenuView-Swift.h</key>
 		<data>
-		cfhGgZDK2UYgl0eZAQWSEyIGGCg=
+		XT+IQkDYPRgZVSsG7/or8LfBlKA=
 		</data>
 		<key>Headers/QMMenuView.h</key>
 		<data>
@@ -14,23 +14,39 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		3Qf4cF8vZ7A8jZxT5dZkRpTxsmM=
+		oYOaAagoa/73HKVJsrX0NVt1l9g=
 		</data>
-		<key>Modules/QMMenuView.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
+		<key>Modules/QMMenuView.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		/eip+/UJuvgGmBcEHNioquWn+VI=
+		PVTleLBiqq+9ZkSpJNnt6VWtUic=
 		</data>
-		<key>Modules/QMMenuView.swiftmodule/arm64-apple-ios.abi.json</key>
+		<key>Modules/QMMenuView.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<data>
+		zm6HtDd29zIr8EmRybDnMD2MF/4=
+		</data>
+		<key>Modules/QMMenuView.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
 		FSPnLbho3G+LL9smI3XgVOqBIQ4=
 		</data>
-		<key>Modules/QMMenuView.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/QMMenuView.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		MobBZUuchoSGZ49uYj/H8uK7BpE=
+		HJbN1RiU0uze7zG1EX8s0FOSa34=
 		</data>
-		<key>Modules/QMMenuView.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/QMMenuView.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		QTrbW+T+/kSQk7phgPAy/HsYoPQ=
+		CTxhJFvG/Ml63jPlWrEcyhiYJdE=
+		</data>
+		<key>Modules/QMMenuView.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<data>
+		FSPnLbho3G+LL9smI3XgVOqBIQ4=
+		</data>
+		<key>Modules/QMMenuView.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		jQZ6JSgVrT8eTbR2JoKd+P7IU1M=
+		</data>
+		<key>Modules/QMMenuView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		MIE0ZAgm2u0I6LXPP/WnADAqSKM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -43,11 +59,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cfhGgZDK2UYgl0eZAQWSEyIGGCg=
+			XT+IQkDYPRgZVSsG7/or8LfBlKA=
 			</data>
 			<key>hash2</key>
 			<data>
-			uSoBzhbMbhTp45kGuP8a//Agamuzo+zij9hnAQ22qeU=
+			n1B0Q3KPkUFusiJp2JTCdhiuldIkQEv7iVT2Xr+t0iQ=
 			</data>
 		</dict>
 		<key>Headers/QMMenuView.h</key>
@@ -61,18 +77,29 @@
 			3VPRGemI9zIUmzOxE/W9jS8aW18+EyUgOzdiQRVCPq0=
 			</data>
 		</dict>
-		<key>Modules/QMMenuView.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
+		<key>Modules/QMMenuView.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/eip+/UJuvgGmBcEHNioquWn+VI=
+			PVTleLBiqq+9ZkSpJNnt6VWtUic=
 			</data>
 			<key>hash2</key>
 			<data>
-			01meaGn3JUdTohMylEBEzCaTE840e5Y4AHqysQuz82c=
+			oHz1VmAxLJw6NjY5e7rk/DOY/AVazFJZOuIhGWz6894=
 			</data>
 		</dict>
-		<key>Modules/QMMenuView.swiftmodule/arm64-apple-ios.abi.json</key>
+		<key>Modules/QMMenuView.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zm6HtDd29zIr8EmRybDnMD2MF/4=
+			</data>
+			<key>hash2</key>
+			<data>
+			pLpIlFRJSvT6LFwwFCMXzqAmguZ/CEZTDid8lVYx+34=
+			</data>
+		</dict>
+		<key>Modules/QMMenuView.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -83,26 +110,59 @@
 			KnRdWE4y6t4QM5zi5JDptPdHFgJy1Tku+7GLkZS2aNM=
 			</data>
 		</dict>
-		<key>Modules/QMMenuView.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/QMMenuView.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MobBZUuchoSGZ49uYj/H8uK7BpE=
+			HJbN1RiU0uze7zG1EX8s0FOSa34=
 			</data>
 			<key>hash2</key>
 			<data>
-			wvz91n7+8LxPrPTjgC3CHO+Xw989oMvPE6s3pcMJfmQ=
+			Wo2ns2VNOk8/s2N2wQS3lMLXnluRiQOIG0Qejc2741M=
 			</data>
 		</dict>
-		<key>Modules/QMMenuView.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/QMMenuView.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QTrbW+T+/kSQk7phgPAy/HsYoPQ=
+			CTxhJFvG/Ml63jPlWrEcyhiYJdE=
 			</data>
 			<key>hash2</key>
 			<data>
-			bH0erTh2ykgzKN6L3AhTv1YWJOeedyUdan60dK1x8ww=
+			XA+aKDBdWDewV847lPG3RxakxzOMh/BxVo4pa3QvRF0=
+			</data>
+		</dict>
+		<key>Modules/QMMenuView.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FSPnLbho3G+LL9smI3XgVOqBIQ4=
+			</data>
+			<key>hash2</key>
+			<data>
+			KnRdWE4y6t4QM5zi5JDptPdHFgJy1Tku+7GLkZS2aNM=
+			</data>
+		</dict>
+		<key>Modules/QMMenuView.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jQZ6JSgVrT8eTbR2JoKd+P7IU1M=
+			</data>
+			<key>hash2</key>
+			<data>
+			FEdhB2T/t0ZpNojvPJ9O5TmmGvoGImCR2nUCgFc1MVs=
+			</data>
+		</dict>
+		<key>Modules/QMMenuView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MIE0ZAgm2u0I6LXPP/WnADAqSKM=
+			</data>
+			<key>hash2</key>
+			<data>
+			/D091QtK6/M2joWCCM+/V5f1+rlAfqmXvi83oOJ/L6w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
