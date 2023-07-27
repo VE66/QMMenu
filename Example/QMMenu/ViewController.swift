@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import QMMenuView
 
 class ViewController: UIViewController {
 

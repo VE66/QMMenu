@@ -165,6 +165,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = X54BPV8374;
 						LastSwiftMigration = 0900;
 					};
 				};
@@ -380,6 +381,7 @@
 			baseConfigurationReference = 1B0FD93B0B0A66AC3EAE681C /* Pods-QMMenu_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X54BPV8374;
 				INFOPLIST_FILE = QMMenu/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -396,6 +398,7 @@
 			baseConfigurationReference = 0CEE33FCBC288014AF6535F5 /* Pods-QMMenu_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X54BPV8374;
 				INFOPLIST_FILE = QMMenu/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
