@@ -16,6 +16,7 @@
 				03FFEE0883E8D5FBA3FC81C9B005A839 /* PBXTargetDependency */,
 			);
 			name = QMMenu;
+			productName = QMMenu;
 		};
 /* End PBXAggregateTarget section */
 
@@ -26,11 +27,9 @@
 		0FC8F4BCC3259FF0480E4817333754A6 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFDF096C3836F945945C9FFDB5090F5 /* Constraint.swift */; };
 		1725B6024EB9959ED76E7F16E2B8B29A /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751D5202E1F291CC13F7AE0CD669B831 /* ConstraintOffsetTarget.swift */; };
 		17EB077FFA1923AF3C3902AD27831456 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152EE8343B4F64CFDE73F65CEF14A13F /* UILayoutSupport+Extensions.swift */; };
-		198F88C018E7B5AAE108D1E9D29F7333 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		255A7727DCEE73734E92F9B6E3EEAF43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		31647FD3D2543F08A03BC3B712F82466 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF34962F54DAA8DEB0A1D7D4F3FC09A /* ConstraintRelatableTarget.swift */; };
 		397A207D1E0F6BB229915198D43AF2AF /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD101E65ADCCC341BCD3BFF777CA947C /* ConstraintConfig.swift */; };
-		45390BF30997F46AC9F88E4E0E3D7CA2 /* Pods-QMMenu_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA40E66A9935B308BEDA69993784E1 /* Pods-QMMenu_Tests-dummy.m */; };
 		4667E0C33132F2F1FEC9AFE45D2430AE /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CBE69DD3B611E4180FCBDD8CDE8814 /* Debugging.swift */; };
 		46D4584C23EC3C7F5898401A0DC053A0 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91F91B010D4991E838DAC578595BA7A /* ConstraintLayoutGuideDSL.swift */; };
 		578A581CA094199640709DFE086195CE /* ConstraintDirectionalInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8DFD8FEE78807F86F0544749C80450 /* ConstraintDirectionalInsets.swift */; };
@@ -53,7 +52,6 @@
 		B22EF2F5DF7B52E9EB836894E48DF391 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A0BC61944B3E89515CACB83BB1B976 /* ConstraintDescription.swift */; };
 		B25E6DB213A45F10F086625C96EF9ACF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		B7F77B26068B2C3D2ABF6F20C50C9312 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E5BB7E9F99F41E937A7E2CCEF178BE /* ConstraintItem.swift */; };
-		BB9553BE56FE01E1A9920484F3DBE3B1 /* Pods-QMMenu_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 774B84437F3889E74590D512C6AC6587 /* Pods-QMMenu_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB0D40E19D6F95BB7FD44A7156715CFA /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E74C9EDB065D2E76B3EDCCB6E2153 /* ConstraintRelation.swift */; };
 		D27D30318BBAF70C4968EF3E286F0B7B /* Pods-QMMenu_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0602A3BB9ACB59FE9C19B7B8E5C694F8 /* Pods-QMMenu_Example-dummy.m */; };
 		D45D0F65ADEDE177B792FD690451E07E /* ConstraintDirectionalInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC84DB0CD86A51B4B66E0450CBF40DE /* ConstraintDirectionalInsetTarget.swift */; };
@@ -75,13 +73,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = F5321357E75BC48E339BB1A8C8BB333A;
 			remoteInfo = QMMenu;
-		};
-		3DEE4B2C5CE30236C08E511B4773072D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D177D0CC66524D2711E8721AA4688906;
-			remoteInfo = "Pods-QMMenu_Example";
 		};
 		41AB50970F573D43BA5DECACA2300C65 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -113,13 +104,13 @@
 		26E5BB7E9F99F41E937A7E2CCEF178BE /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Sources/ConstraintItem.swift; sourceTree = "<group>"; };
 		2BADE0BA3857F3AB3A5B29FFA26BEF69 /* Pods-QMMenu_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QMMenu_Example-frameworks.sh"; sourceTree = "<group>"; };
 		2FBA40E66A9935B308BEDA69993784E1 /* Pods-QMMenu_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QMMenu_Tests-dummy.m"; sourceTree = "<group>"; };
-		3368C69177E94A5B9904FCD15CA0CA21 /* QMMenu.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QMMenu.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		35CE93651089485A47DD68FB6B5411FB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3368C69177E94A5B9904FCD15CA0CA21 /* QMMenu.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = QMMenu.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		35CE93651089485A47DD68FB6B5411FB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		38A6A462E0F0B040B83C8763773533FE /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Sources/LayoutConstraint.swift; sourceTree = "<group>"; };
 		3AF34962F54DAA8DEB0A1D7D4F3FC09A /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Sources/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
 		412D51A2BEEF78C262C4B3F3798D1702 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Sources/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
 		458867733779570F7398C76B46AEAF5E /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Sources/ConstraintView.swift; sourceTree = "<group>"; };
-		4813874FA15306C390EB26522E44B73F /* Pods-QMMenu_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-QMMenu_Example"; path = Pods_QMMenu_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4813874FA15306C390EB26522E44B73F /* Pods_QMMenu_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QMMenu_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C8251A08ED8E6CF34420BBF858126F7 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Sources/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
 		5032FD34D5BB9A1F925C649B43CC02DC /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Sources/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
 		54A0BC61944B3E89515CACB83BB1B976 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Sources/ConstraintDescription.swift; sourceTree = "<group>"; };
@@ -134,14 +125,13 @@
 		7BC84DB0CD86A51B4B66E0450CBF40DE /* ConstraintDirectionalInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsetTarget.swift; path = Sources/ConstraintDirectionalInsetTarget.swift; sourceTree = "<group>"; };
 		800CF7093ADE10064507EA17A025123C /* Pods-QMMenu_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QMMenu_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		86F2F7080A1F9F7E3112D6728C35D7F7 /* Pods-QMMenu_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QMMenu_Tests-Info.plist"; sourceTree = "<group>"; };
-		9084AB7A49DCE7D83D095C49A2DA4ED2 /* Pods-QMMenu_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-QMMenu_Tests"; path = Pods_QMMenu_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		932076048BB79360F50A76C2C738DFC8 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
 		94E42FA589867A878EC039323DA40B7F /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
 		960E2E91424D9428F311B73888D8E927 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Sources/Typealiases.swift; sourceTree = "<group>"; };
 		979486118B3E90C08386079D57962701 /* SnapKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D76B7182DC68A3B030E597DBA8C13C6 /* Pods-QMMenu_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QMMenu_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D912F1A66CF77F2F893A56CF9568567 /* Pods-QMMenu_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QMMenu_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F0A527ED8F0A719FF610D743A87DAD3 /* ConstraintMakerPrioritizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPrioritizable.swift; path = Sources/ConstraintMakerPrioritizable.swift; sourceTree = "<group>"; };
 		B57B4B15AAC3AB24B43306829FAA77A0 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Sources/ConstraintPriority.swift; sourceTree = "<group>"; };
 		B854F4D9CFABFD754A6E08AE1F0E6FC6 /* QMMenuView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QMMenuView.framework; path = QMMenu/Classes/QMMenuView.framework; sourceTree = "<group>"; };
@@ -155,7 +145,7 @@
 		C83141A7BA266489296BCBEF99AC5412 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Sources/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
 		C91F91B010D4991E838DAC578595BA7A /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Sources/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
 		D2FD9EFCFC3AA452137876B761FFB621 /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
-		D8FE0D81CC31B48D324EBDACA2DE63CC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D8FE0D81CC31B48D324EBDACA2DE63CC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D9DD935D163517BBFB042C2BF4C5C496 /* Pods-QMMenu_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QMMenu_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DD101E65ADCCC341BCD3BFF777CA947C /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Sources/ConstraintConfig.swift; sourceTree = "<group>"; };
 		DDFBBDB0D11D15EA3C0D640EF407F700 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Sources/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
@@ -180,14 +170,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				255A7727DCEE73734E92F9B6E3EEAF43 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F843CE82E60A05E5F95D06342BAF3321 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				198F88C018E7B5AAE108D1E9D29F7333 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,8 +290,7 @@
 		C251F2EACF473AD034F39156F23034EB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4813874FA15306C390EB26522E44B73F /* Pods-QMMenu_Example */,
-				9084AB7A49DCE7D83D095C49A2DA4ED2 /* Pods-QMMenu_Tests */,
+				4813874FA15306C390EB26522E44B73F /* Pods_QMMenu_Example.framework */,
 				979486118B3E90C08386079D57962701 /* SnapKit */,
 			);
 			name = Products;
@@ -377,7 +358,6 @@
 				152EE8343B4F64CFDE73F65CEF14A13F /* UILayoutSupport+Extensions.swift */,
 				403EB05A3920652EED411213C52E3AC2 /* Support Files */,
 			);
-			name = SnapKit;
 			path = SnapKit;
 			sourceTree = "<group>";
 		};
@@ -401,14 +381,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		E9B1932EE5CFFB2936F7F855D64C5740 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BB9553BE56FE01E1A9920484F3DBE3B1 /* Pods-QMMenu_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		EC0743EE4A22B5F5DB699C879107895F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -446,25 +418,6 @@
 			productReference = 979486118B3E90C08386079D57962701 /* SnapKit */;
 			productType = "com.apple.product-type.framework";
 		};
-		4A0F49CE28E743FC4FFEF2D7BC70F4F4 /* Pods-QMMenu_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2D18AD47488565F1600BCE350A839391 /* Build configuration list for PBXNativeTarget "Pods-QMMenu_Tests" */;
-			buildPhases = (
-				E9B1932EE5CFFB2936F7F855D64C5740 /* Headers */,
-				6BF363BC5AEC507664AA8ACCDA2967B2 /* Sources */,
-				F843CE82E60A05E5F95D06342BAF3321 /* Frameworks */,
-				C5ED8A1ECCD222824ADBE553A96D57CB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6D433B3A9D0CA28133B515606E374358 /* PBXTargetDependency */,
-			);
-			name = "Pods-QMMenu_Tests";
-			productName = Pods_QMMenu_Tests;
-			productReference = 9084AB7A49DCE7D83D095C49A2DA4ED2 /* Pods-QMMenu_Tests */;
-			productType = "com.apple.product-type.framework";
-		};
 		D177D0CC66524D2711E8721AA4688906 /* Pods-QMMenu_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6C6995715190422F0DDA5C84F34C3DF /* Build configuration list for PBXNativeTarget "Pods-QMMenu_Example" */;
@@ -482,7 +435,7 @@
 			);
 			name = "Pods-QMMenu_Example";
 			productName = Pods_QMMenu_Example;
-			productReference = 4813874FA15306C390EB26522E44B73F /* Pods-QMMenu_Example */;
+			productReference = 4813874FA15306C390EB26522E44B73F /* Pods_QMMenu_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -508,7 +461,6 @@
 			projectRoot = "";
 			targets = (
 				D177D0CC66524D2711E8721AA4688906 /* Pods-QMMenu_Example */,
-				4A0F49CE28E743FC4FFEF2D7BC70F4F4 /* Pods-QMMenu_Tests */,
 				F5321357E75BC48E339BB1A8C8BB333A /* QMMenu */,
 				19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */,
 			);
@@ -530,13 +482,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C5ED8A1ECCD222824ADBE553A96D57CB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -545,14 +490,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D27D30318BBAF70C4968EF3E286F0B7B /* Pods-QMMenu_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6BF363BC5AEC507664AA8ACCDA2967B2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				45390BF30997F46AC9F88E4E0E3D7CA2 /* Pods-QMMenu_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -622,12 +559,6 @@
 			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
 			targetProxy = B9CB5F43E3D65436C1A3BCDEAEBE7A97 /* PBXContainerItemProxy */;
 		};
-		6D433B3A9D0CA28133B515606E374358 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-QMMenu_Example";
-			target = D177D0CC66524D2711E8721AA4688906 /* Pods-QMMenu_Example */;
-			targetProxy = 3DEE4B2C5CE30236C08E511B4773072D /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
@@ -645,73 +576,6 @@
 			};
 			name = Debug;
 		};
-		2D05109256FEF347ECFD4AF9A4221A32 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C19A858937E95BC965AFCFFA33E9E6F6 /* Pods-QMMenu_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QMMenu_Tests/Pods-QMMenu_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QMMenu_Tests/Pods-QMMenu_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		355FB6BA906F0CBEC333F8C0FAAE17C1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D912F1A66CF77F2F893A56CF9568567 /* Pods-QMMenu_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QMMenu_Tests/Pods-QMMenu_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QMMenu_Tests/Pods-QMMenu_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		3B5524C7BA05F6551E2AECFD55BA6574 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FFA570AD1AEC9A9B73C882C1E4DE155E /* Pods-QMMenu_Example.release.xcconfig */;
@@ -728,7 +592,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-QMMenu_Example/Pods-QMMenu_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-QMMenu_Example/Pods-QMMenu_Example.modulemap";
@@ -801,8 +665,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -824,7 +687,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-QMMenu_Example/Pods-QMMenu_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-QMMenu_Example/Pods-QMMenu_Example.modulemap";
@@ -993,15 +856,6 @@
 			buildConfigurations = (
 				E759B3A5C24724D02B152F44848533F2 /* Debug */,
 				9EA6C4B1EC88B99AA3009CF3D92DA98D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2D18AD47488565F1600BCE350A839391 /* Build configuration list for PBXNativeTarget "Pods-QMMenu_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2D05109256FEF347ECFD4AF9A4221A32 /* Debug */,
-				355FB6BA906F0CBEC333F8C0FAAE17C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -5,9 +5,4 @@ platform :ios, '10.0'
 target 'QMMenu_Example' do
   pod 'QMMenu', :path => '../'
 
-  target 'QMMenu_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end
