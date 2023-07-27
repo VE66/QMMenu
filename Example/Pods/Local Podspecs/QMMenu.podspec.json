@@ -19,6 +19,9 @@
     "ios": "11.0"
   },
   "vendored_frameworks": "QMMenu/Classes/QMMenuView.framework",
+  "pod_target_xcconfig": {
+    "VALID_ARCHS": "arm64"
+  },
   "dependencies": {
     "SnapKit": [
 

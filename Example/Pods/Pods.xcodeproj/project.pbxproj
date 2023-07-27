@@ -16,14 +16,13 @@
 				03FFEE0883E8D5FBA3FC81C9B005A839 /* PBXTargetDependency */,
 			);
 			name = QMMenu;
-			productName = QMMenu;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
 		056CB8B70ADF1F9C9D0A32D888FECF7B /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4B3092297166519217A25AD70D5341 /* ConstraintMaker.swift */; };
 		063B2147FE78F5EBE99ED6EB0F691593 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA50A49AB14A27B030EF455D9943EB8B /* ConstraintLayoutSupport.swift */; };
-		0D18E416D64D531034F8B6E9937163F8 /* Pods-QMMenu_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55FED270427766EF55F3F1C7F40C8F9C /* Pods-QMMenu_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D18E416D64D531034F8B6E9937163F8 /* Pods-QMMenu_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B138497419951DC2A156F13505B36937 /* Pods-QMMenu_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0FC8F4BCC3259FF0480E4817333754A6 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFDF096C3836F945945C9FFDB5090F5 /* Constraint.swift */; };
 		1725B6024EB9959ED76E7F16E2B8B29A /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751D5202E1F291CC13F7AE0CD669B831 /* ConstraintOffsetTarget.swift */; };
 		17EB077FFA1923AF3C3902AD27831456 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152EE8343B4F64CFDE73F65CEF14A13F /* UILayoutSupport+Extensions.swift */; };
@@ -53,7 +52,7 @@
 		B25E6DB213A45F10F086625C96EF9ACF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		B7F77B26068B2C3D2ABF6F20C50C9312 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E5BB7E9F99F41E937A7E2CCEF178BE /* ConstraintItem.swift */; };
 		CB0D40E19D6F95BB7FD44A7156715CFA /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E74C9EDB065D2E76B3EDCCB6E2153 /* ConstraintRelation.swift */; };
-		D27D30318BBAF70C4968EF3E286F0B7B /* Pods-QMMenu_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0602A3BB9ACB59FE9C19B7B8E5C694F8 /* Pods-QMMenu_Example-dummy.m */; };
+		D27D30318BBAF70C4968EF3E286F0B7B /* Pods-QMMenu_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96593D7C11745BEA6F367CF55E3E0033 /* Pods-QMMenu_Example-dummy.m */; };
 		D45D0F65ADEDE177B792FD690451E07E /* ConstraintDirectionalInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC84DB0CD86A51B4B66E0450CBF40DE /* ConstraintDirectionalInsetTarget.swift */; };
 		D848F1F5487AFF1B6D166EBA080FA40B /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57C38722D9F65992CF2200038C8651E /* ConstraintMakerEditable.swift */; };
 		DA68429D677144BA64ABEEB1525A3CB3 /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57B4B15AAC3AB24B43306829FAA77A0 /* ConstraintPriority.swift */; };
@@ -93,75 +92,67 @@
 /* Begin PBXFileReference section */
 		00529F62152FE0E9A82AF6D8EAAAE2E1 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Sources/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
 		0072CC268C7456CC1DA6E8180975AB43 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Sources/ConstraintViewDSL.swift; sourceTree = "<group>"; };
-		0091B85AC4DCC92C5FD2D612A529D4ED /* Pods-QMMenu_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QMMenu_Example.modulemap"; sourceTree = "<group>"; };
 		02732995CB94C03CB83E1935B434AD74 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Sources/ConstraintDSL.swift; sourceTree = "<group>"; };
-		0602A3BB9ACB59FE9C19B7B8E5C694F8 /* Pods-QMMenu_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QMMenu_Example-dummy.m"; sourceTree = "<group>"; };
 		0A4B3092297166519217A25AD70D5341 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Sources/ConstraintMaker.swift; sourceTree = "<group>"; };
 		0AFDF096C3836F945945C9FFDB5090F5 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Sources/Constraint.swift; sourceTree = "<group>"; };
 		0EE5F8CB92905AE76169A71226B44035 /* SnapKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.debug.xcconfig; sourceTree = "<group>"; };
+		10D56C5823E94639CC8EA179F4B1A275 /* Pods-QMMenu_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QMMenu_Example.release.xcconfig"; sourceTree = "<group>"; };
 		143498449916D71708A8AF2F96E7320A /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
 		152EE8343B4F64CFDE73F65CEF14A13F /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Sources/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
 		26E5BB7E9F99F41E937A7E2CCEF178BE /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Sources/ConstraintItem.swift; sourceTree = "<group>"; };
-		2BADE0BA3857F3AB3A5B29FFA26BEF69 /* Pods-QMMenu_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QMMenu_Example-frameworks.sh"; sourceTree = "<group>"; };
-		2FBA40E66A9935B308BEDA69993784E1 /* Pods-QMMenu_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QMMenu_Tests-dummy.m"; sourceTree = "<group>"; };
-		3368C69177E94A5B9904FCD15CA0CA21 /* QMMenu.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = QMMenu.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		35CE93651089485A47DD68FB6B5411FB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3368C69177E94A5B9904FCD15CA0CA21 /* QMMenu.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QMMenu.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		35CE93651089485A47DD68FB6B5411FB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		38A6A462E0F0B040B83C8763773533FE /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Sources/LayoutConstraint.swift; sourceTree = "<group>"; };
 		3AF34962F54DAA8DEB0A1D7D4F3FC09A /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Sources/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
 		412D51A2BEEF78C262C4B3F3798D1702 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Sources/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		42A2952DF7AA26D3BA2E964A0E9D152A /* Pods-QMMenu_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QMMenu_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		458867733779570F7398C76B46AEAF5E /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Sources/ConstraintView.swift; sourceTree = "<group>"; };
-		4813874FA15306C390EB26522E44B73F /* Pods_QMMenu_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QMMenu_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4813874FA15306C390EB26522E44B73F /* Pods-QMMenu_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-QMMenu_Example"; path = Pods_QMMenu_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C8251A08ED8E6CF34420BBF858126F7 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Sources/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
 		5032FD34D5BB9A1F925C649B43CC02DC /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Sources/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
 		54A0BC61944B3E89515CACB83BB1B976 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Sources/ConstraintDescription.swift; sourceTree = "<group>"; };
-		55FED270427766EF55F3F1C7F40C8F9C /* Pods-QMMenu_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QMMenu_Example-umbrella.h"; sourceTree = "<group>"; };
 		583BBF75085D255E27A5F9EF9EC203A5 /* ConstraintMakerRelatable+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintMakerRelatable+Extensions.swift"; path = "Sources/ConstraintMakerRelatable+Extensions.swift"; sourceTree = "<group>"; };
 		5F2DCDFF2011C08759407B4E2038CA11 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Sources/ConstraintAttributes.swift; sourceTree = "<group>"; };
 		7096225ED146E16EC168C99FEDD215B5 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Sources/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		751D5202E1F291CC13F7AE0CD669B831 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Sources/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
-		774B84437F3889E74590D512C6AC6587 /* Pods-QMMenu_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QMMenu_Tests-umbrella.h"; sourceTree = "<group>"; };
 		782C19B041349DED0C47AC71C798375C /* SnapKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.release.xcconfig; sourceTree = "<group>"; };
 		7BC84DB0CD86A51B4B66E0450CBF40DE /* ConstraintDirectionalInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsetTarget.swift; path = Sources/ConstraintDirectionalInsetTarget.swift; sourceTree = "<group>"; };
-		800CF7093ADE10064507EA17A025123C /* Pods-QMMenu_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QMMenu_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		86F2F7080A1F9F7E3112D6728C35D7F7 /* Pods-QMMenu_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QMMenu_Tests-Info.plist"; sourceTree = "<group>"; };
+		8916AA1AD5C82F6EE9459F9D1EADD9F3 /* Pods-QMMenu_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QMMenu_Example-Info.plist"; sourceTree = "<group>"; };
 		932076048BB79360F50A76C2C738DFC8 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
 		94E42FA589867A878EC039323DA40B7F /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
 		960E2E91424D9428F311B73888D8E927 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Sources/Typealiases.swift; sourceTree = "<group>"; };
+		96593D7C11745BEA6F367CF55E3E0033 /* Pods-QMMenu_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QMMenu_Example-dummy.m"; sourceTree = "<group>"; };
 		979486118B3E90C08386079D57962701 /* SnapKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D76B7182DC68A3B030E597DBA8C13C6 /* Pods-QMMenu_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QMMenu_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D912F1A66CF77F2F893A56CF9568567 /* Pods-QMMenu_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QMMenu_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F0A527ED8F0A719FF610D743A87DAD3 /* ConstraintMakerPrioritizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPrioritizable.swift; path = Sources/ConstraintMakerPrioritizable.swift; sourceTree = "<group>"; };
+		A8B989B1508C6C1F7D702ABB430B4148 /* Pods-QMMenu_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QMMenu_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B138497419951DC2A156F13505B36937 /* Pods-QMMenu_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QMMenu_Example-umbrella.h"; sourceTree = "<group>"; };
 		B57B4B15AAC3AB24B43306829FAA77A0 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Sources/ConstraintPriority.swift; sourceTree = "<group>"; };
 		B854F4D9CFABFD754A6E08AE1F0E6FC6 /* QMMenuView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QMMenuView.framework; path = QMMenu/Classes/QMMenuView.framework; sourceTree = "<group>"; };
-		B87DA485569A53A8B2FCB5ADFDADBE0A /* Pods-QMMenu_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QMMenu_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		BA50A49AB14A27B030EF455D9943EB8B /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Sources/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
 		BC8DFD8FEE78807F86F0544749C80450 /* ConstraintDirectionalInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsets.swift; path = Sources/ConstraintDirectionalInsets.swift; sourceTree = "<group>"; };
 		BDF6E18B5372A4BBE8507FE4B9F165C0 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
-		C19A858937E95BC965AFCFFA33E9E6F6 /* Pods-QMMenu_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QMMenu_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C282AEDFB53BD2F6B277738727FF116D /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Sources/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
 		C5D52A60BF41010F680313572B051598 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Sources/ConstraintInsets.swift; sourceTree = "<group>"; };
 		C83141A7BA266489296BCBEF99AC5412 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Sources/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
 		C91F91B010D4991E838DAC578595BA7A /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Sources/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
 		D2FD9EFCFC3AA452137876B761FFB621 /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
-		D8FE0D81CC31B48D324EBDACA2DE63CC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		D9DD935D163517BBFB042C2BF4C5C496 /* Pods-QMMenu_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QMMenu_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D8FE0D81CC31B48D324EBDACA2DE63CC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		DD101E65ADCCC341BCD3BFF777CA947C /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Sources/ConstraintConfig.swift; sourceTree = "<group>"; };
+		DD3936334B78E5FB9150126A4558E545 /* Pods-QMMenu_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QMMenu_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DD43A8E81CD1B4FC0CB8040A92C9F9D2 /* Pods-QMMenu_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QMMenu_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DDFBBDB0D11D15EA3C0D640EF407F700 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Sources/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
 		E04B678C00268C9CF7E410145D6F78AA /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Sources/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		E29E87CBF5DD0DA3415A8105635BB0D2 /* Pods-QMMenu_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QMMenu_Example.modulemap"; sourceTree = "<group>"; };
 		E30E74C9EDB065D2E76B3EDCCB6E2153 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Sources/ConstraintRelation.swift; sourceTree = "<group>"; };
 		E45E81B6EDD5D22E29E724D5D7B9BA41 /* QMMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QMMenu.debug.xcconfig; sourceTree = "<group>"; };
 		EEE15C12D4B2736CB1D1B07F4838FCA7 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Sources/LayoutConstraintItem.swift; sourceTree = "<group>"; };
-		EF068B33C84F29DF2DDC5B4F4FD57B76 /* Pods-QMMenu_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QMMenu_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EFBA8ACAF6BB98EA9A80787E239CF6BC /* QMMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QMMenu.release.xcconfig; sourceTree = "<group>"; };
-		F2AFA2DB5BFBD18768033C87094ECA12 /* Pods-QMMenu_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QMMenu_Example-Info.plist"; sourceTree = "<group>"; };
 		F4CBE69DD3B611E4180FCBDD8CDE8814 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Sources/Debugging.swift; sourceTree = "<group>"; };
 		F55D2A11C17BBCE3C9F7F0BA9555B5AE /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Sources/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
 		F57C38722D9F65992CF2200038C8651E /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Sources/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
-		FB8207BA9762E25A7D616A10E5F7C9CA /* Pods-QMMenu_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QMMenu_Tests.modulemap"; sourceTree = "<group>"; };
 		FE5693124BFA9269D2085EC1ADFAAD76 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Sources/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
-		FFA570AD1AEC9A9B73C882C1E4DE155E /* Pods-QMMenu_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QMMenu_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,39 +175,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1C4995122D7C31858F37F2F26F40EB1F /* Pods-QMMenu_Example */ = {
-			isa = PBXGroup;
-			children = (
-				0091B85AC4DCC92C5FD2D612A529D4ED /* Pods-QMMenu_Example.modulemap */,
-				9D76B7182DC68A3B030E597DBA8C13C6 /* Pods-QMMenu_Example-acknowledgements.markdown */,
-				D9DD935D163517BBFB042C2BF4C5C496 /* Pods-QMMenu_Example-acknowledgements.plist */,
-				0602A3BB9ACB59FE9C19B7B8E5C694F8 /* Pods-QMMenu_Example-dummy.m */,
-				2BADE0BA3857F3AB3A5B29FFA26BEF69 /* Pods-QMMenu_Example-frameworks.sh */,
-				F2AFA2DB5BFBD18768033C87094ECA12 /* Pods-QMMenu_Example-Info.plist */,
-				55FED270427766EF55F3F1C7F40C8F9C /* Pods-QMMenu_Example-umbrella.h */,
-				800CF7093ADE10064507EA17A025123C /* Pods-QMMenu_Example.debug.xcconfig */,
-				FFA570AD1AEC9A9B73C882C1E4DE155E /* Pods-QMMenu_Example.release.xcconfig */,
-			);
-			name = "Pods-QMMenu_Example";
-			path = "Target Support Files/Pods-QMMenu_Example";
-			sourceTree = "<group>";
-		};
-		1C4E6B211F6F70FAB520AD7CD8C82167 /* Pods-QMMenu_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				FB8207BA9762E25A7D616A10E5F7C9CA /* Pods-QMMenu_Tests.modulemap */,
-				EF068B33C84F29DF2DDC5B4F4FD57B76 /* Pods-QMMenu_Tests-acknowledgements.markdown */,
-				B87DA485569A53A8B2FCB5ADFDADBE0A /* Pods-QMMenu_Tests-acknowledgements.plist */,
-				2FBA40E66A9935B308BEDA69993784E1 /* Pods-QMMenu_Tests-dummy.m */,
-				86F2F7080A1F9F7E3112D6728C35D7F7 /* Pods-QMMenu_Tests-Info.plist */,
-				774B84437F3889E74590D512C6AC6587 /* Pods-QMMenu_Tests-umbrella.h */,
-				C19A858937E95BC965AFCFFA33E9E6F6 /* Pods-QMMenu_Tests.debug.xcconfig */,
-				9D912F1A66CF77F2F893A56CF9568567 /* Pods-QMMenu_Tests.release.xcconfig */,
-			);
-			name = "Pods-QMMenu_Tests";
-			path = "Target Support Files/Pods-QMMenu_Tests";
-			sourceTree = "<group>";
-		};
 		403EB05A3920652EED411213C52E3AC2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -248,6 +206,15 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/QMMenu";
+			sourceTree = "<group>";
+		};
+		6B752675C243842A4B54D95737643335 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4813874FA15306C390EB26522E44B73F /* Pods-QMMenu_Example */,
+				979486118B3E90C08386079D57962701 /* SnapKit */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		83D6F5FE7027D9A16298D2F477D359BF /* Development Pods */ = {
@@ -287,13 +254,29 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		C251F2EACF473AD034F39156F23034EB /* Products */ = {
+		BD693230A8649B7CE5D42638F68FE661 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4813874FA15306C390EB26522E44B73F /* Pods_QMMenu_Example.framework */,
-				979486118B3E90C08386079D57962701 /* SnapKit */,
+				C71FE939A3D3466FF720821B3AB09EB4 /* Pods-QMMenu_Example */,
 			);
-			name = Products;
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C71FE939A3D3466FF720821B3AB09EB4 /* Pods-QMMenu_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E29E87CBF5DD0DA3415A8105635BB0D2 /* Pods-QMMenu_Example.modulemap */,
+				DD3936334B78E5FB9150126A4558E545 /* Pods-QMMenu_Example-acknowledgements.markdown */,
+				DD43A8E81CD1B4FC0CB8040A92C9F9D2 /* Pods-QMMenu_Example-acknowledgements.plist */,
+				96593D7C11745BEA6F367CF55E3E0033 /* Pods-QMMenu_Example-dummy.m */,
+				A8B989B1508C6C1F7D702ABB430B4148 /* Pods-QMMenu_Example-frameworks.sh */,
+				8916AA1AD5C82F6EE9459F9D1EADD9F3 /* Pods-QMMenu_Example-Info.plist */,
+				B138497419951DC2A156F13505B36937 /* Pods-QMMenu_Example-umbrella.h */,
+				42A2952DF7AA26D3BA2E964A0E9D152A /* Pods-QMMenu_Example.debug.xcconfig */,
+				10D56C5823E94639CC8EA179F4B1A275 /* Pods-QMMenu_Example.release.xcconfig */,
+			);
+			name = "Pods-QMMenu_Example";
+			path = "Target Support Files/Pods-QMMenu_Example";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -303,8 +286,8 @@
 				83D6F5FE7027D9A16298D2F477D359BF /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				FBE859397B27E4FC4D81B6F5DD24B6F6 /* Pods */,
-				C251F2EACF473AD034F39156F23034EB /* Products */,
-				FD6B92E08512DC95D53B5B9B025662C4 /* Targets Support Files */,
+				6B752675C243842A4B54D95737643335 /* Products */,
+				BD693230A8649B7CE5D42638F68FE661 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -358,6 +341,7 @@
 				152EE8343B4F64CFDE73F65CEF14A13F /* UILayoutSupport+Extensions.swift */,
 				403EB05A3920652EED411213C52E3AC2 /* Support Files */,
 			);
+			name = SnapKit;
 			path = SnapKit;
 			sourceTree = "<group>";
 		};
@@ -367,15 +351,6 @@
 				D29D3F332511F02C2A2BCFE5288B22D5 /* SnapKit */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		FD6B92E08512DC95D53B5B9B025662C4 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1C4995122D7C31858F37F2F26F40EB1F /* Pods-QMMenu_Example */,
-				1C4E6B211F6F70FAB520AD7CD8C82167 /* Pods-QMMenu_Tests */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -435,7 +410,7 @@
 			);
 			name = "Pods-QMMenu_Example";
 			productName = Pods_QMMenu_Example;
-			productReference = 4813874FA15306C390EB26522E44B73F /* Pods_QMMenu_Example.framework */;
+			productReference = 4813874FA15306C390EB26522E44B73F /* Pods-QMMenu_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -456,7 +431,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = C251F2EACF473AD034F39156F23034EB /* Products */;
+			productRefGroup = 6B752675C243842A4B54D95737643335 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -578,7 +553,7 @@
 		};
 		3B5524C7BA05F6551E2AECFD55BA6574 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFA570AD1AEC9A9B73C882C1E4DE155E /* Pods-QMMenu_Example.release.xcconfig */;
+			baseConfigurationReference = 10D56C5823E94639CC8EA179F4B1A275 /* Pods-QMMenu_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -592,7 +567,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-QMMenu_Example/Pods-QMMenu_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-QMMenu_Example/Pods-QMMenu_Example.modulemap";
@@ -665,7 +640,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -673,7 +649,7 @@
 		};
 		95AA514C91023ACD6AD5A2D296787E95 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 800CF7093ADE10064507EA17A025123C /* Pods-QMMenu_Example.debug.xcconfig */;
+			baseConfigurationReference = 42A2952DF7AA26D3BA2E964A0E9D152A /* Pods-QMMenu_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -687,7 +663,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-QMMenu_Example/Pods-QMMenu_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-QMMenu_Example/Pods-QMMenu_Example.modulemap";
