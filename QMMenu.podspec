@@ -30,10 +30,13 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
 #  s.source_files = 'QMMenu/Classes/**/*'
   s.vendored_frameworks = 'QMMenu/Classes/QMMenuView.framework'
+  
   # s.resource_bundles = {
   #   'QMMenu' => ['QMMenu/Assets/*.png']
   # }
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 x86_64' }
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'SnapKit'
